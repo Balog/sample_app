@@ -17,7 +17,9 @@ end
 group :test do
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
+  gem 'spork', '0.9.0.rc8'
 end
+gem 'jquery-rails'
 =begin
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
